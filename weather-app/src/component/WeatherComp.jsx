@@ -6,8 +6,8 @@ function WeatherComp ({data}){
     // if(!data) return <p> Fetching Data...</p>;
     return (
         <>
-            <div className='m-auto mt-6 w-4/5 h-3/4 p-8 font-sans  bg-[url(https://images.unsplash.com/photo-1542801205-5240aa78e9d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]  backdrop-opacity-10 '>
-               <div className='grid grid-col-8 grid-flow-col border-8 border-backdrop-blur-[20px] '>
+            <div className='m-auto mt-6 w-4/5 h-3/4 p-8 font-sans  bg-[url(https://images.unsplash.com/photo-1542801205-5240aa78e9d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]   '>
+               <div className='grid grid-col-8 grid-flow-col rounded-xl border-8 border-backdrop-blur-[20px] '>
                   {/* left panel */}
                   <div className='col-span-7  p-4'>
                      <p className='text-right mt-6'>10-08-2024 | 11:00</p>
@@ -61,9 +61,9 @@ function WeatherComp ({data}){
                   {/* right panel */}
                   <div className='col-span-1 p-6  grid  backdrop-blur-[18px] '>
                      <div className='m-auto mt-2'>
-                           <input className='bg-transparent   ' type="text" placeholder='Enter your city'  />
+                           <input className='bg-transparent border border-gray-400 rounded p-1  mr-2 ' type="text" placeholder='Enter your city'  />
                          
-                           {/* <button > <img src=" https://img.icons8.com/?size=100&id=80625&format=png&color=000000" alt="" /> </button> */}
+                           <button  className='bg-transparent border border-gray-400 rounded p-1'>Search</button>
                      </div>
                      
                      <p className='m-auto mt-6 text-7xl'>11{'\u00b0'}C </p>

@@ -40,11 +40,7 @@ function App() {
   }
   return (
     <>
-      {/* <div className="input">
-        <input type="text" placeholder='Enter your city' value={place} onChange={handler} />
-        <button onClick={getResult} > Search </button>
-      </div> */}
-    {/* {loading ?  <p> Loading... </p> : <WeatherComp data={data} />} */}
+    <WeatherComp data={data} />
 
       <WeatherComp/>
     </>
