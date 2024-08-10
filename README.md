@@ -1,1 +1,1 @@
-# weather-app
+This project is a modern, responsive weather application that fetches real-time weather data from a 3rd party API. The app provides users with accurate and up-to-date weather information based on their location or any city they search for. Tailwind CSS is utilized for styling, ensuring a sleek and user-friendly interface that adapts seamlessly to different devices and screen sizes. The app is built with a focus on simplicity, performance, and ease of use.
