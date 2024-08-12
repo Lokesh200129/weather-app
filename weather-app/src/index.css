@@ -12,6 +12,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Hide scrollbar for WebKit browsers */
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.scroll-container {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Hide scrollbar for other browsers */
+.scroll-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  display: flex; /* Ensure the items are in a row */
+  flex-wrap: nowrap; /* Prevent wrapping of items */
+}
 
 @tailwind base;
 @tailwind components;
